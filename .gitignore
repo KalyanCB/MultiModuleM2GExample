@@ -3,6 +3,8 @@
 
 # Maven build output
 /target/
+/frontend/node/node_modules/
+frontend/node/
 
 # IntelliJ project files
 .idea/

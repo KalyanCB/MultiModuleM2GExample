@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'application'
 }
 
 repositories {
@@ -8,6 +7,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.example:dto:1.0.0-SNAPSHOT'
+    implementation project(':dto')
     implementation 'org.springframework.boot:spring-boot-starter-web:3.2.5'
 }

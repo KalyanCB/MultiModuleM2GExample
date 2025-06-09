@@ -3,8 +3,8 @@ plugins {
 }
 
 ext {
-    node.version = 'v20.9.0'
-    frontend-maven-plugin.version = '1.14.2'
+    node_version = 'v20.9.0'
+    frontend_maven_plugin_version = '1.14.2'
 }
 
 repositories {

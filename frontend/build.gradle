@@ -2,6 +2,11 @@ plugins {
     id 'java'
 }
 
+ext {
+    node.version = 'v20.9.0'
+    frontend-maven-plugin.version = '1.14.2'
+}
+
 repositories {
     mavenCentral()
 }

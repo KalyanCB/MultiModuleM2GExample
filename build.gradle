@@ -2,6 +2,11 @@ plugins {
     id 'java'
 }
 
+ext {
+    java.version = '17'
+    spring.boot.version = '3.2.5'
+}
+
 repositories {
     mavenCentral()
 }

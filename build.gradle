@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+ext {
+    java_version = '17'
+    spring_boot_version = '3.2.5'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-dependencies:3.2.5'
+}

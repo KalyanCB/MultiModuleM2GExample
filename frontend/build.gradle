@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+ext {
+    node_version = 'v20.9.0'
+    frontend_maven_plugin_version = '1.14.2'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}

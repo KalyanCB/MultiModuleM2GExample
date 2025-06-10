@@ -1,3 +1,5 @@
+group = 'com.example'
+version = '1.0.0-SNAPSHOT'
 plugins {
     id 'java'
 }
@@ -15,4 +17,7 @@ dependencies {
 }
 
 // Plugin-specific Gradle configuration
-// TODO: Convert plugin com.github.eirslett:frontend-maven-plugin version ${frontend-maven-plugin.version}
+// TODO: Convert plugin com.github.eirslett:frontend-maven-plugin version 1.14.2
+// TODO: Plugin frontend-maven-plugin execution: install node and npm for goals: install-node-and-npm
+// TODO: Plugin frontend-maven-plugin execution: npm install for goals: npm
+// TODO: Plugin frontend-maven-plugin execution: npm build for goals: npm

@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'application'
     id 'org.springframework.boot'
 }
 
@@ -15,14 +14,6 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-dependencies:3.2.5'
-}
-
-application {
-    mainClass = 'com.example.MainApplication'
-}
-
-springBoot {
-    mainClass = 'com.example.MainApplication'
 }
 
 // Plugin-specific Gradle configuration

@@ -1,8 +1,6 @@
-group = 'com.example'
-version = '1.0.0-SNAPSHOT'
 plugins {
-    id 'java'
     id 'org.springframework.boot'
+    id 'java'
 }
 
 ext {
@@ -32,15 +30,9 @@ test {
 // TODO: Convert plugin org.apache.maven.plugins:maven-deploy-plugin version 3.0.0-M1
 // TODO: Convert plugin org.apache.maven.plugins:maven-site-plugin version 3.9.1
 // TODO: Convert plugin org.codehaus.mojo:build-helper-maven-plugin version 3.2.0
-// TODO: Plugin build-helper-maven-plugin execution: add-source for goals: add-source
 // TODO: Convert plugin org.apache.maven.plugins:maven-resources-plugin version 3.2.0
-// TODO: Plugin maven-resources-plugin execution: copy-resources for goals: copy-resources
 // TODO: Convert plugin org.apache.maven.plugins:maven-clean-plugin version 3.1.0
 // TODO: Convert plugin org.apache.maven.plugins:maven-assembly-plugin version 3.3.0
-// TODO: Plugin maven-assembly-plugin execution: make-assembly for goals: single
 // TODO: Convert plugin org.apache.maven.plugins:maven-checkstyle-plugin version 3.1.0
-// TODO: Plugin maven-checkstyle-plugin execution: checkstyle for goals: check
 // TODO: Convert plugin org.apache.maven.plugins:maven-javadoc-plugin version 3.4.0
-// TODO: Plugin maven-javadoc-plugin execution: attach-javadocs for goals: jar
 // TODO: Convert plugin org.apache.maven.plugins:maven-source-plugin version 3.2.1
-// TODO: Plugin maven-source-plugin execution: attach-sources for goals: jar-no-fork

@@ -1,4 +1,5 @@
 plugins {
+    id 'org.springframework.boot'
     id 'java'
 }
 
@@ -10,3 +11,5 @@ dependencies {
     implementation project(':dto')
     implementation 'org.springframework.boot:spring-boot-starter-web:3.2.5'
 }
+
+// Plugin-specific Gradle configuration

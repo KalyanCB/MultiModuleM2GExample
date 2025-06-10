@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
     id 'org.springframework.boot'
 }
 
@@ -16,24 +17,20 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-dependencies:3.2.5'
 }
 
+application {
+    mainClass = 'com.example.MainApplication'
+}
+
+springBoot {
+    mainClass = 'com.example.MainApplication'
+}
+
 // Plugin-specific Gradle configuration
-// TODO: Convert plugin org.springframework.boot:spring-boot-maven-plugin version 3.2.5
 tasks.withType(JavaCompile) {
-    sourceCompatibility = '17'
-    targetCompatibility = '17'
+    sourceCompatibility = '${java.version}'
+    targetCompatibility = '${java.version}'
 }
 test {
     useJUnitPlatform()
     // Additional test options can go here
 }
-// TODO: Convert plugin org.apache.maven.plugins:maven-jar-plugin version 3.2.0
-// TODO: Convert plugin org.apache.maven.plugins:maven-install-plugin version 3.0.0-M1
-// TODO: Convert plugin org.apache.maven.plugins:maven-deploy-plugin version 3.0.0-M1
-// TODO: Convert plugin org.apache.maven.plugins:maven-site-plugin version 3.9.1
-// TODO: Convert plugin org.codehaus.mojo:build-helper-maven-plugin version 3.2.0
-// TODO: Convert plugin org.apache.maven.plugins:maven-resources-plugin version 3.2.0
-// TODO: Convert plugin org.apache.maven.plugins:maven-clean-plugin version 3.1.0
-// TODO: Convert plugin org.apache.maven.plugins:maven-assembly-plugin version 3.3.0
-// TODO: Convert plugin org.apache.maven.plugins:maven-checkstyle-plugin version 3.1.0
-// TODO: Convert plugin org.apache.maven.plugins:maven-javadoc-plugin version 3.4.0
-// TODO: Convert plugin org.apache.maven.plugins:maven-source-plugin version 3.2.1

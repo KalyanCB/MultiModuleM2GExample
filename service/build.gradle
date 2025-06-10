@@ -13,4 +13,3 @@ dependencies {
 }
 
 // Plugin-specific Gradle configuration
-// TODO: Convert plugin org.springframework.boot:spring-boot-maven-plugin version None

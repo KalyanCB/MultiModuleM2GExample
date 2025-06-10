@@ -15,4 +15,3 @@ dependencies {
 }
 
 // Plugin-specific Gradle configuration
-// TODO: Convert plugin com.github.eirslett:frontend-maven-plugin version 1.14.2
